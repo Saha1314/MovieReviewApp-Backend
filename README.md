@@ -43,23 +43,3 @@ Follow these steps to set up the project locally:
 2. **Build and run the Project**:
    mvn clean install
    mvn spring-boot:run
-
-## Project Structure
-   src/
-    ├── main/
-    │   ├── java/dev/farhan/movieist/
-    │   │   ├── movies/
-    │   │   │   ├── Movie.java               # Movie entity
-    │   │   │   ├── MovieController.java     # Movie REST controller
-    │   │   │   ├── MovieRepository.java     # Movie repository interface
-    │   │   │   ├── MovieService.java        # Movie service layer
-    │   │   │   ├── Review.java              # Review entity
-    │   │   │   ├── ReviewController.java    # Review REST controller
-    │   │   │   ├── ReviewRepository.java    # Review repository interface
-    │   │   │   ├── ReviewService.java       # Review service layer
-    │   │   ├── MovieistApplication.java     # Main application class
-    │   └── resources/
-    │       ├── application.properties       # Application configuration
-    ├── test/
-    │   └── java/dev/farhan/movieist/        # Unit and integration tests
-
