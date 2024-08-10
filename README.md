@@ -41,5 +41,6 @@ Follow these steps to set up the project locally:
    git clone https://github.com/yourusername/movieist.git
    cd movieist
 2. **Build and run the Project**:
+   ```bash
    mvn clean install
    mvn spring-boot:run
